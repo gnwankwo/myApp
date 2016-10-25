@@ -1,0 +1,31 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "learning how to use express with the common hello world command",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon -L app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "george",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "mocha": "^3.1.2",
+    "nodemon": "^1.11.0",
+    "pg": "^6.1.0",
+    "sequelize": "^3.24.5"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/gnwankwo/myApp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gnwankwo/myApp/issues"
+  },
+  "homepage": "https://github.com/gnwankwo/myApp#readme"
+}
